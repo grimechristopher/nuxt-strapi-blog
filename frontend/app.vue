@@ -27,6 +27,7 @@ useHead({
       { name: 'og:type', content: 'website' },
       { name: 'og:locale', content: 'en_US' },
       { name: 'og:image', content: getStrapiMedia(global?.defaultSeo?.shareImage?.data.attributes.url) },
+      { name: 'viewport', content: 'width=device-width' },
   ],
 })
 </script>
